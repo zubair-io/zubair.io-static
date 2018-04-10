@@ -1,0 +1,138 @@
+
+
+.grassHome {
+
+
+    background-image: url(../photo/grassCover.jpg);
+
+
+    background-size: cover;
+
+
+    z-index: 1;
+
+
+}
+
+
+.panel {
+
+
+    z-index: 1;
+
+
+    background-size: cover;
+
+
+    background-position: center;
+
+
+}
+
+
+#classic {
+
+
+    background-image: url(../photo/sf-1.jpg);
+
+
+}
+
+
+#alowerview {
+
+
+    background-image: url(../photo/sf-2.jpg);
+
+
+}
+
+
+#translucent {
+
+
+    background-image: url(../photo/grape-1.jpg);
+
+
+}
+
+
+#rojo {
+
+
+    background-image: url(../photo/grape-2.jpg);
+
+
+}
+
+
+#morado {
+
+
+    background-image: url(../photo/grape-3.jpg);
+
+
+}
+
+
+#tres_grapes {
+
+
+    background-image: url(../photo/grape-wide.jpg);
+
+
+}
+
+
+#grass-1 {
+
+
+    background-image: url(../photo/grass-1.jpg);
+
+
+}
+
+
+#grass-2 {
+
+
+    background-image: url(../photo/grass-2.jpg);
+
+
+}
+
+
+#grass-3 {
+
+
+    background-image: url(../photo/grass-3.jpg);
+
+
+}
+
+
+#tres_grass {
+
+
+    background-image: url(../photo/grass-wide.jpg);
+
+
+}
+
+
+#zubair {
+
+
+    background-image: url(../photo/about.jpg);
+
+
+}
+
+
+#me {
+
+
+    background-image: url(../photo/contact.jpg);
+
+
+}
