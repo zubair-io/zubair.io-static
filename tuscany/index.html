@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tuscany, Italy</title>
+    <script type="text/javascript" src='openseadragon.min.js'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="/tuscany.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1850" />
+    <meta property="og:image:height" content="560" />
+    <meta property="og:title" content="Tuscany, Italy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zubair.io/tuscany" />
+    <meta property="og:image:alt" content="A panoramic view of Tuscany, Italy" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <style type="text/css">
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #111;
+        }
+
+        #tuscany {
+            width: 100vw;
+            height: 100vh;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="tuscany"></div>
+    <script type="text/javascript">
+
+        var viewer = OpenSeadragon({
+            debugMode: false,
+            id: "tuscany",
+            prefixUrl: "images/",
+            showNavigator: false,
+
+
+            tileSources: [
+                {
+                    type: "zoomifytileservice",
+                    height: 5639,
+                    width: 18489,
+                    tilesUrl: "/tuscany/"
+                }
+            ]
+        });
+
+    </script>
+</body>
+
+</html>
